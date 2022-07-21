@@ -270,3 +270,21 @@ for(i=0; i<=9;i++){
     fn2 = fn1
     fn1 = fn
 }
+
+/* Muestra los números del 1 al 30 pero teniendo en cuenta los siguientes cambios:
+○ Escribe pim cuando son múltiplos de 3
+○ Escribe pom cuando son múltiplos de 5
+○ Escribe pim pom cuando son múltiplos de 3 y 5 */
+
+
+for (let i=1; i<=30; i++){
+    if(i%3 ==0 && i%5==0) {
+        console.log("Pim Pom:" + i)
+    }
+    else if (i%3 ==0){
+        console.log("Pim:" + i)
+    }
+    else if( i%5==0){
+    console.log("Pom:" + i)
+    }
+}
