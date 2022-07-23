@@ -55,17 +55,38 @@ console.log(mascotas.perro3.nombre + mascotas.perro3.nombreDelDueno )
 
 /* Reto: Métodos del Array
 1. Declara un array que tenga los números del 1 al 30, utilizando un método
+<<<<<<< HEAD
 del array.*/
 
 let num=[];
 let resultNum=num.splice(30,0, "1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30");
 console.log(num)
+=======
+del array.
+2. Debes aplicar un método del array para filtrar todos los números que
+sean múltiplos de 3.
+3. Debes aplicar un método del array para filtrar todos los números que
+sean múltiplos de 5.
+4. Debes aplicar un método para crear un nuevo arreglo que contenga el
+valor de cada número multiplicado por 2.
+5. Declara un array que tenga valores de diferentes tipos de datos, y utiliza
+un método que nos diga si todos los tipos de datos son iguales o no. */
+
+//1.
+
+let numbers=[1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30];
+
+let num=[];
+let resultNum=num.splice(30,0, "1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30");
+
+>>>>>>> e502f1e83165f33a509f81e2a69a70f55fc683dc
 
 let numb =Array.from(Array(31).keys()).slice(1,31)
 console.log(numb)
 
 //keys= El método keys() devuelve un nuevo objeto Array Iterator que contiene las claves de índice con las que acceder a cada elemento en el array.
 
+<<<<<<< HEAD
 let arrayVacio=[];
 
 for(let i=0; i<=30;i++){    
@@ -171,8 +192,30 @@ console.log(res)
 
 /* 
 
+=======
+>>>>>>> e502f1e83165f33a509f81e2a69a70f55fc683dc
 let numbe=Array(30).fill(undefined).map(function(x,idx){
     return idx +1 
 });
 
+<<<<<<< HEAD
 console.log(numbe); */
+=======
+console.log(numbe);
+
+
+/* 3. Debes aplicar un método del array para filtrar todos los números que sean múltiplos de 3.
+
+
+
+
+4. Debes aplicar un método para crear un nuevo arreglo que contenga el valor de cada número multiplicado por 2. */
+
+let numberss=[1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30];
+
+let arrayNumberss=numberss.map(function(num){
+    return num * 2
+})
+
+console.log(arrayNumberss)
+>>>>>>> e502f1e83165f33a509f81e2a69a70f55fc683dc
